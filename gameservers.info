@@ -1,6 +1,6 @@
 ; $Id$
 name = Game servers
-description = Acquire and display information from a variety of game servers.
+description = List game servers.
 package = Games
 ;dependencies[] = ctools
 
