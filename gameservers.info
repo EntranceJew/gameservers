@@ -5,5 +5,4 @@ package = Games
 ;dependencies[] = ctools
 
 ; Packaging 
-version = 6.x-1.x-dev
-core = 6.x
+core = 7.x
