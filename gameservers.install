@@ -97,12 +97,12 @@ function gameservers_requirements($phase) {
 
   // Ensure that the map images directory can be created.
   if ($phase == 'runtime') {
-    $path = file_create_path('gameservers/maps');
+    $path = 'public://' . 'gameservers/maps';
     if (!file_check_directory($path, FILE_CREATE_DIRECTORY)) {
-      $path = file_create_path('gameservers');
+      $path = 'public://' . 'gameservers';
       file_check_directory($path, FILE_CREATE_DIRECTORY);
 
-      $path = file_create_path('gameservers/maps');
+      $path = 'public://' . 'gameservers/maps';
       file_check_directory($path, FILE_CREATE_DIRECTORY);
     }
 
