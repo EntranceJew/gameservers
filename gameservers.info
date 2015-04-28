@@ -7,4 +7,4 @@ package = Games
 ; Packaging 
 core = 7.x
 
-regions[content] = 'content'
+regions[content] = Content
