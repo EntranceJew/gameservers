@@ -8,3 +8,5 @@ package = Games
 core = 7.x
 
 regions[content] = Content
+engine = phptemplate
+stylesheets[all][] = gameservers.css
